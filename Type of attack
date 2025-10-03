@@ -1,0 +1,68 @@
+
+The common attacks on passwords can be broadly categorized into two main types: guessing/cracking attempts and social engineering/interception methods.
+
+Here is a research summary of the most frequent and effective password attacks:
+
+Research Summary: Common Attacks on Passwords
+1. Brute Force and Dictionary Attacks
+These are the most fundamental password-cracking techniques, which often use automated tools to try to guess credentials.
+
+Attack Type	Methodology	Key Vulnerability Exploited
+Brute Force	A systematic, automated trial-and-error process that tries every possible combination of letters, numbers, and symbols until the correct password is found.	Password Length (Shorter passwords are cracked faster).
+Dictionary	An automated attack that attempts passwords from a pre-compiled list (or "dictionary") of the most common passwords, common words, common phrases, and variations (like substituting 'o' with '0' or 'i' with '1').	Password Simplicity (Weak, common, or dictionary-based passwords).
+Password Spraying	A targeted variation where an attacker tries a small number of common passwords (e.g., Password123) against a large list of usernames. This avoids triggering account lockouts that typically occur when a single account receives too many failed attempts.	Weak/Default Passwords (Especially in corporate environments).
+
+Export to Sheets
+2. Credential Stuffing
+This is one of the most effective modern attacks, as it exploits human behavior rather than system weaknesses.
+
+Attack Type	Methodology	Key Vulnerability Exploited
+Credential Stuffing	Attackers take a large list of stolen username and password pairs (obtained from a data breach on one website) and automatically "stuff" them as login attempts into other, unrelated websites (e.g., banking, social media).	Password Reuse (Users using the same password across multiple sites).
+
+Export to Sheets
+3. Social Engineering and Interception
+These methods rely on tricking a user or passively intercepting data to obtain the password directly.
+
+Attack Type	Methodology	Key Vulnerability Exploited
+Phishing	The attacker sends a deceptive communication (like an email or text) that masquerades as a trusted entity (e.g., a bank, a colleague). The goal is to trick the user into voluntarily clicking a link to a fake login page and entering their credentials.	Human Error/Trust (Lack of user awareness and vigilance).
+Keylogging	Attackers install a malicious software (keylogger) or a physical device on a victim's computer to secretly record and transmit every keystroke they type, including usernames and passwords.	Malware/System Vulnerability (Unpatched systems or devices without proper antivirus protection).
+Man-in-the-Middle (MitM)	An attacker secretly intercepts and relays messages between two parties who believe they are communicating directly. In a password attack, this often occurs on unsecured public Wi-Fi to capture login credentials as they are transmitted.	Unsecured Network Traffic (Lack of HTTPS/SSL encryption).
+
+Export to Sheets
+4. Offline Attacks
+
+The common attacks on passwords can be broadly categorized into two main types: guessing/cracking attempts and social engineering/interception methods.
+
+Here is a research summary of the most frequent and effective password attacks:
+
+Research Summary: Common Attacks on Passwords
+1. Brute Force and Dictionary Attacks
+These are the most fundamental password-cracking techniques, which often use automated tools to try to guess credentials.
+
+Attack Type	Methodology	Key Vulnerability Exploited
+Brute Force	A systematic, automated trial-and-error process that tries every possible combination of letters, numbers, and symbols until the correct password is found.	Password Length (Shorter passwords are cracked faster).
+Dictionary	An automated attack that attempts passwords from a pre-compiled list (or "dictionary") of the most common passwords, common words, common phrases, and variations (like substituting 'o' with '0' or 'i' with '1').	Password Simplicity (Weak, common, or dictionary-based passwords).
+Password Spraying	A targeted variation where an attacker tries a small number of common passwords (e.g., Password123) against a large list of usernames. This avoids triggering account lockouts that typically occur when a single account receives too many failed attempts.	Weak/Default Passwords (Especially in corporate environments).
+
+Export to Sheets
+2. Credential Stuffing
+This is one of the most effective modern attacks, as it exploits human behavior rather than system weaknesses.
+
+Attack Type	Methodology	Key Vulnerability Exploited
+Credential Stuffing	Attackers take a large list of stolen username and password pairs (obtained from a data breach on one website) and automatically "stuff" them as login attempts into other, unrelated websites (e.g., banking, social media).	Password Reuse (Users using the same password across multiple sites).
+
+Export to Sheets
+3. Social Engineering and Interception
+These methods rely on tricking a user or passively intercepting data to obtain the password directly.
+
+Attack Type	Methodology	Key Vulnerability Exploited
+Phishing	The attacker sends a deceptive communication (like an email or text) that masquerades as a trusted entity (e.g., a bank, a colleague). The goal is to trick the user into voluntarily clicking a link to a fake login page and entering their credentials.	Human Error/Trust (Lack of user awareness and vigilance).
+Keylogging	Attackers install a malicious software (keylogger) or a physical device on a victim's computer to secretly record and transmit every keystroke they type, including usernames and passwords.	Malware/System Vulnerability (Unpatched systems or devices without proper antivirus protection).
+Man-in-the-Middle (MitM)	An attacker secretly intercepts and relays messages between two parties who believe they are communicating directly. In a password attack, this often occurs on unsecured public Wi-Fi to capture login credentials as they are transmitted.	Unsecured Network Traffic (Lack of HTTPS/SSL encryption).
+
+Export to Sheets
+4. Offline Attacks
+These attacks occur after a system has already been breached and the password data (the password hashes) has been stolen.
+
+Attack Type	Methodology	Key Vulnerability Exploited
+Rainbow Table Attack	Attackers use pre-computed tables of hash values to quickly find the original plaintext password that corresponds to a stolen password hash.	Weak Hashing Algorithms and lack of Salt (Salt adds a random value to the password before hashing, making rainbow tables ineffective).
