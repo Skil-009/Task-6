@@ -1,0 +1,11 @@
+1.Multi-Factor Authentication (MFA/2FA): This is the single most effective defense against credential stuffing and phishing, as an attacker with a stolen password still needs a second factor (like your phone).
+
+2.Unique and Strong Passwords: Use a different, long (12+ characters), and complex password for every account. This is the primary defense against Brute Force, Dictionary, and Credential Stuffing.
+
+3.Password Manager: Use one to automatically generate and store unique, complex passwords, eliminating human error and password reuse.
+
+4.Account Lockout Policies: Systems should be configured to lock an account or slow down the login process after a few failed attempts to mitigate Brute Force and Dictionary attacks.
+
+5.User Education: Training users to recognize phishing attempts is crucial to prevent social engineering attacks.
+
+6.Hashing and Salting: Organizations must use modern, strong hashing algorithms (like Argon2 or bcrypt) and unique "salts" when storing passwords to protect against offline attacks.
